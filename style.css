@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEF2FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gameArea {
+    width: 400px;
+    height: 400px;
+    background-color: #A5B4FC;
+    padding: 25px;
+    margin-top: 75px;
+    box-shadow: 5px 5px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.announcement {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.winner {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.moves {
+    display: flex;
+    gap: 8px;
+}
+
+.gameInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.round {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scores {
+    display: flex;
+    gap: 20px;
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+button {
+    border-radius: 28px;
+    color: #ffffff;
+    font-size: 20px;
+    background: #4338CA;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+button:hover {
+    background: #312E81;
+    text-decoration: none;
+}
